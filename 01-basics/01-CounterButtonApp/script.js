@@ -1,4 +1,3 @@
-// import { defineComponent } from 'vue';
 import { createApp, defineComponent } from './vendor/vue.esm-browser.js';
 
 const RootComponentOptions = defineComponent({
