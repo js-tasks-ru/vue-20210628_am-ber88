@@ -5,6 +5,7 @@ import MeetupCover from './MeetupCover.js';
 import MeetupDescription from './MeetupDescription.js';
 import MeetupAgenda from './MeetupAgenda.js';
 import MeetupInfo from './MeetupInfo.js';
+//import meetups from './api/meetups.js';
 
 export default defineComponent({
   name: 'MeetupView',
