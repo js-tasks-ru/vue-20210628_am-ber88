@@ -9,9 +9,13 @@
       "destination": "/src/assets/icons/:rest"
     },
     {
-      "source": "/images/:rest",
-      "destination": "/public/images/:rest"
+      "source": "/assets/fonts/:rest",
+      "destination": "/src/assets/fonts/:rest"
+    },
+    {
+      "source": "/assets/images/:rest",
+      "destination": "/src/assets/images/:rest"
     }
   ],
-  "unlisted": ["/.*", "/*.js", "/*.json", "/*.yml", "/*.md", "/node_modules", "/public", "/utility_modules"]
+  "unlisted": ["/.*", "/*.js", "/*.json", "/*.yml", "/*.md", "/node_modules", "/utility_modules"]
 }
